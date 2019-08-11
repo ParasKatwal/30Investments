@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400&display=swap");
+* {
+  background: lightgray;
+}
+
+.header {
+  height: 100vh;
+  position: relative;
+  background: white;
+  overflow: hidden;
+}
+
+.header img {
+  width: 80%;
+}
+
+.boxes {
+  height: auto;
+  padding-top: 10%;
+}
+
+.boxes .box-wrapper {
+  position: relative;
+}
+
+.boxes .box {
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.boxes img {
+  width: 100%;
+}
+
+.boxes .box1 {
+  width: 30vw;
+  height: 80vh;
+  position: absolute;
+  left: 100px;
+  background: black;
+}
+
+.boxes .box2 {
+  width: 40vw;
+  height: 50vh;
+  position: absolute;
+  right: 30px;
+  bottom: -850px;
+  background: #003f56;
+}
+
+.boxes .box3 {
+  width: 30vw;
+  height: 60vh;
+  position: absolute;
+  left: 200px;
+  bottom: -1300px;
+  background: #3f3f3e;
+}
+
+.boxes .box4 {
+  width: 40vw;
+  height: 80vh;
+  position: absolute;
+  right: 0;
+  bottom: -1700px;
+  background: #0e0e0e;
+}
+
+.boxes .box5 {
+  width: 40vw;
+  height: 60vh;
+  position: absolute;
+  left: 80px;
+  bottom: -2000px;
+  background: #f61189;
+}
+
+.boxes .box6 {
+  width: 50vw;
+  height: 50vh;
+  position: absolute;
+  right: 20px;
+  bottom: -2350px;
+  background: #254339;
+}
+
+.boxes .box7 {
+  width: 30vw;
+  height: 70vh;
+  position: absolute;
+  left: 20px;
+  bottom: -2820px;
+}
+
+.boxes .box8 {
+  width: 50vw;
+  height: 40vh;
+  position: absolute;
+  right: 200px;
+  bottom: -3100px;
+  background: #f47c20;
+}
+
+.boxes .hidden {
+  opacity: 0;
+  -webkit-animation: fadeleft 2s .5s ease-in forwards;
+          animation: fadeleft 2s .5s ease-in forwards;
+  -webkit-transform: translateX(-4rem);
+          transform: translateX(-4rem);
+}
+
+footer {
+  position: absolute;
+  bottom: -3400px;
+  width: 100%;
+}
+
+footer .container {
+  border-top: 2px solid black;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer p {
+  text-align: center;
+  padding: 30px;
+}
+
+/* Animations */
+@-webkit-keyframes fadeleft {
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+            transform: none;
+  }
+}
+@keyframes fadeleft {
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+            transform: none;
+  }
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Responsive css -->
+    <link rel="stylesheet" href="css/responsive.css" media="screen and (max-width: 1200px)">
+    <title>30 INVESTMENTS</title>
+    <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+<body>
+    <div class="header d-flex align-items-center justify-content-center ">
+        <img src="img/30_Investments.png" alt="">
+    </div>
+
+    <div class="boxes">
+        <div class="container box-wrapper">
+           <div class="box box1 zoom1 hidden"><img src="img/Pencifresh.png" alt=""></div>
+
+           <div class="box box2 zoom2 hidden"><img src="img/Crape.png" alt=""></div>
+
+           <div class="box box3 zoom3 hidden"><img src="img/Roofcube.png" alt=""></div>
+
+           <div class="box box4 zoom4 hidden"><img src="img/Vybe.png" alt=""></div>
+
+           <div class="box box5 zoom5 hidden"><img src="img/LuxiiS.png" alt=""></div>
+
+           <div class="box box6 zoom6 hidden"><img src="img/RavenRedwood.png" alt=""></div>
+
+           <div class="box box7 zoom7 hidden"><img src="img/background .png" alt=""></div>
+
+           <div class="box box8 zoom8 hidden"><img src="img/Purre.png" alt=""></div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container d-flex">
+            <p>Say hello at 613-805-1879</p> <p>or</p> <p>hello@30investments.ca</p>
+        </div>
+    </footer>
+
+   
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script>
+    $(window).scroll(function(){
+        var scroll = $(window).scrollTop();
+        $(".zoom1 img").css({
+            width: (10 + scroll/7) + "%",
+        })
+        $(".zoom2 img").css({
+            width: (10 + scroll/18) + "%"
+        })
+        $(".zoom3 img").css({
+            width: (10 + scroll/20) + "%"
+        })
+        $(".zoom4 img").css({
+            width: (10 + scroll/30) + "%"
+        })
+        $(".zoom5 img").css({
+            width: (10 + scroll/24) + "%"
+        })
+        $(".zoom6 img").css({
+            width: (10 + scroll/30) + "%"
+        })
+        $(".zoom7 img").css({
+            width: (10 + scroll/24) + "%"
+        })
+        $(".zoom8 img").css({
+            width: (10 + scroll/40) + "%"
+        })
+    })
+
+</script>  
+</body>
+</html>

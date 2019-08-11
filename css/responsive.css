@@ -1,0 +1,37 @@
+.boxes .box3{
+    left: 100px;
+}
+.boxes .box4{
+    width: 30vw;
+}  
+.boxes .box5{
+    left: 0;
+}
+.boxes footer{
+    left: 0;
+    width: 90vw;
+}
+
+@media (max-width: 767.98px) {
+    .header img{
+        width: 100%;
+    }
+    /* .intro h1{
+        font-size: 30px;
+    }
+    .intro p{
+        font-size: 20px;
+    }
+    .intro .box{
+        padding: 0 30px;
+    } */
+    .boxes .box{
+        position: static;
+        width: 80vw;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+    footer{
+        bottom: -3200px;
+    }
+}
