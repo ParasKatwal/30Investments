@@ -47,7 +47,7 @@
         width: 30vw;
         height: 60vh;
         position: absolute;
-        left: 200px;
+        left: 100px;
         bottom: -1300px;
         background: #3f3f3e;
     }
@@ -86,9 +86,16 @@
         width: 50vw;
         height: 40vh;
         position: absolute;
-        right: 200px;
+        right: 100px;
         bottom: -3100px;
         background: #f47c20;
+    }
+    .box9{
+        width: 30vw;
+        height: 40vh;
+        position: absolute;
+        left: 200px;
+        bottom: -3400px;
     }
     .hidden{
         opacity: 0;
@@ -99,7 +106,7 @@
 
 footer{
     position: absolute;
-    bottom: -3400px;
+    bottom: -3700px;
     width: 100%;
     
     .container{
