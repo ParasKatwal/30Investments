@@ -1,6 +1,8 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:300,400&display=swap");
 * {
   background: lightgray;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .header {
@@ -129,13 +131,14 @@ footer {
   position: absolute;
   bottom: -3700px;
   width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 footer .container {
   border-top: 2px solid black;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 footer p {

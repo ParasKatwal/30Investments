@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:300,400&display=swap');
 *{
     background: lightgray;
+    box-sizing: border-box;
 }
 .header{
     height: 100vh;
@@ -108,10 +109,11 @@ footer{
     position: absolute;
     bottom: -3700px;
     width: 100%;
+    box-sizing: border-box;
     
     .container{
         border-top: 2px solid black;
-        justify-content: space-between;
+        justify-content: space-around;
     }
     p{
         text-align: center;
