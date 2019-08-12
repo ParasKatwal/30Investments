@@ -129,14 +129,19 @@
 
 footer {
   position: absolute;
-  bottom: -3700px;
+  bottom: -3800px;
   width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+footer .row {
+  text-align: center;
 }
 
 footer .container {
-  border-top: 2px solid black;
+  padding-top: 10px;
   -ms-flex-pack: distribute;
       justify-content: space-around;
 }
@@ -144,6 +149,34 @@ footer .container {
 footer p {
   text-align: center;
   padding: 30px;
+}
+
+footer .logo {
+  border-right: 1px solid black;
+}
+
+footer .logo img {
+  width: 70%;
+}
+
+footer .menu ul li {
+  list-style: none;
+  font-size: 20px;
+}
+
+footer a {
+  text-decoration: none;
+  color: black;
+}
+
+footer .fab {
+  font-size: 40px;
+}
+
+footer i {
+  border: 1px solid black;
+  padding: 20px;
+  margin: 5px;
 }
 
 /* Animations */
